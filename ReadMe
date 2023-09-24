@@ -1,0 +1,32 @@
+# Ursina Card Game
+
+This repository contains a simple card game implemented using the Ursina game engine. The objective of the game is to lower the other player's health as quickly as possible.
+
+## How to Play
+
+1. Clone this repository to your local machine:
+git clone https://github.com/YourUsername/Ursina-Card-Game.git
+
+    Navigate to the project directory:
+cd Ursina-Card-Game
+
+    Run the game script:
+python main.py
+
+    Play the game by taking turns between Player 1 and Player 2. Each player has a deck of cards, and the goal is to reduce the opponent's health to zero.
+
+Gameplay
+
+    Player 1 and Player 2 take turns playing cards from their decks.
+    Each card has an attack value, and when played, it reduces the opponent's health by the attack value of the card.
+    The game continues until one player's health reaches zero, and the other player wins.
+
+Controls
+
+    To play a card, click on it with the left mouse button.
+    Player 1 plays cards in the lower half of the screen, and Player 2 plays cards in the upper half.
+    The game includes a timer, and if the timer runs out, the game ends.
+
+Customization
+
+Feel free to customize the game by modifying the card values, deck sizes, and game rules in the code. You can also add more features, animations, or enhancements to the gameplay.
