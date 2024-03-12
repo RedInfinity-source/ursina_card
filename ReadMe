@@ -1,32 +1,27 @@
-# Ursina Card Game
+# ursina_card
 
-This repository contains a simple card game implemented using the Ursina game engine. The objective of the game is to lower the other player's health as quickly as possible.
+Ursina Card Game is a multiplayer card game where players aim to lower the health of their opponents before they do the same. Players must manage their deck of cards wisely, monitor their health points, engage in turn-based combat, and race against the clock. The game features dynamic animation, randomized decks, multiplayer support, and an immersive UI. Players must adapt their strategies on the fly, draw new cards, and face unexpected challenges in head-to-head battles. The game's immersive UI adds an extra layer of urgency to the gameplay.
 
-## How to Play
+## Table of Contents
 
-1. Clone this repository to your local machine:
-git clone https://github.com/YourUsername/Ursina-Card-Game.git
+- [About](#about)
+- [Features](#features)
+- [Imports](#Imports)
+- [Rating: 8/10](#Rating)
 
-    Navigate to the project directory:
-cd Ursina-Card-Game
+# About
 
-    Run the game script:
-python main.py
+Ursina Card Game is a multiplayer card game where players aim to lower the health of their opponents before they do the same. Players must manage their deck of cards wisely, as each card represents a unique attack value. Player health is crucial, as it indicates their remaining vitality in the game. Turn-based combat is a key feature, where players strategically select cards from their hand to unleash devastating attacks and defend against enemy assaults. A timer adds urgency to decisions.
+Features include dynamic animation, randomized decks, multiplayer support, and an immersive UI. Players can adapt their strategy on the fly as they draw new cards and face unexpected challenges. Multiplayer support allows players to challenge friends or AI opponents in head-to-head battles, showcasing their tactical prowess and card-playing skills. The game's rich visual environment features sleek UI elements and captivating card designs, bringing the game to life.
 
-    Play the game by taking turns between Player 1 and Player 2. Each player has a deck of cards, and the goal is to reduce the opponent's health to zero.
+# Features
 
-Gameplay
+The Ursina Card Game is a multiplayer card game designed for competitive gameplay. Players compete against each other to lower their opponents' health before their own health depletes. They must strategically manage their deck of cards, each representing a unique attack value. Player health is a vital resource, requiring balance between offense and defense. The game operates on a turn-based system, with players strategically choosing cards during their turn. A timer adds urgency to decision-making, forcing players to think quickly and adapt their strategy within the time limit. The game features dynamic animations, allowing players to visually represent actions such as card plays, attacks, and health changes. Randomized decks ensure variety in gameplay, and players can challenge friends or AI opponents in head-to-head battles. The game environment is immersive, with sleek UI elements and captivating card designs. Overall, the Ursina Card Game combines strategy, competition, and visual appeal, making it an engaging experience for players.
 
-    Player 1 and Player 2 take turns playing cards from their decks.
-    Each card has an attack value, and when played, it reduces the opponent's health by the attack value of the card.
-    The game continues until one player's health reaches zero, and the other player wins.
+# Imports
 
-Controls
+random, ursina
 
-    To play a card, click on it with the left mouse button.
-    Player 1 plays cards in the lower half of the screen, and Player 2 plays cards in the upper half.
-    The game includes a timer, and if the timer runs out, the game ends.
+# Rating
 
-Customization
-
-Feel free to customize the game by modifying the card values, deck sizes, and game rules in the code. You can also add more features, animations, or enhancements to the gameplay.
+The Ursina Card Game is a captivating game with strategic depth and dynamic gameplay mechanics. Its card-based combat and visuals keep players engaged. However, a more intuitive user interface and additional gameplay modes could enhance the experience. Despite these improvements, the game showcases the creativity and innovation of its developers, providing a memorable gaming experience.
