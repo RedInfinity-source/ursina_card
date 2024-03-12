@@ -1,4 +1,4 @@
-# ursina_card
+# CardConquest
 
 Ursina Card Game is a multiplayer card game where players aim to lower the health of their opponents before they do the same. Players must manage their deck of cards wisely, monitor their health points, engage in turn-based combat, and race against the clock. The game features dynamic animation, randomized decks, multiplayer support, and an immersive UI. Players must adapt their strategies on the fly, draw new cards, and face unexpected challenges in head-to-head battles. The game's immersive UI adds an extra layer of urgency to the gameplay.
 
