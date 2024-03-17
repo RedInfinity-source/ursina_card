@@ -24,4 +24,7 @@ random, ursina
 
 # Rating
 
-The Ursina Card Game is a captivating game with strategic depth and dynamic gameplay mechanics. Its card-based combat and visuals keep players engaged. However, a more intuitive user interface and additional gameplay modes could enhance the experience. Despite these improvements, the game showcases the creativity and innovation of its developers, providing a memorable gaming experience.
+It is divided into logical sections using functions and classes, enhancing readability and maintainability. Variable names are descriptive and follow a consistent naming convention, making it easier to understand the purpose of each variable. Additional comments could be beneficial in complex or critical sections.
+The game logic handles player turns, health management, card effects, and the overall game flow effectively. Animations for card movements and hit effects add visual appeal and interactivity. However, the `exit()` function has a recursive call without a base case, which might lead to a stack overflow error.
+The user interface (UI) is well-implemented with health bars, deck sizes, and the timer providing essential information to players. Hit animations and fading out of cards provide visual feedback, enhancing the gaming experience.
+Suggestions for improvement include error handling mechanisms, code optimization, UI enhancements, documentation, and testing. Error handling mechanisms should be implemented to handle potential runtime errors gracefully, while code optimization should be considered for performance during animations or updates. UI enhancements should be improved to enhance the user experience, and documentation should be provided to explain complex logic and game rules.
